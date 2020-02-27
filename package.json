@@ -1,0 +1,20 @@
+{
+  "name": "brainjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts" : {
+  "start" : "babel-node modelo.js",
+  "train" : "node index.js"
+},
+  "dependencies": {
+    "brain.js": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.4"
+  }
+}
+
